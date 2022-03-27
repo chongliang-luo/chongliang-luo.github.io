@@ -1,0 +1,38 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+== Chongliang (Jason) Luo 
+
+~~~
+{}{img_left}{ChongliangLuo.png}{}{360}{375}{}
+ 
+Welcome to my homepage! 
+
+I'm currently a postdoctoral researcher at the [https://www.dbei.med.upenn.edu/ Department of Biostatistics, Epidemiology and Informatics], University of Pennsylvania, advised by Professor [https://www.dbei.med.upenn.edu/bio/yong-chen-phd Yong Chen]. Prior that, I spent one year at the University of Connecticut Health Center as a  postdoctoral researcher, advised by Professors  [https://health.uconn.edu/population-health/person/robert-aseltine-jr-ph-d/ Robert H. Aseltine] and [https://kun-chen.uconn.edu/ Kun Chen].
+
+== Education
+- Ph.D. Statistics, University of Connecticut, 08\/2013 - 08\/2017. \n
+  Dissertation: On integrative reduced-rank models and applications, advised by Professors [https://kun-chen.uconn.edu/ Kun Chen] and [http://merlot.stat.uconn.edu/~dey/ Dipak K. Dey]. 
+- M.S. Statistics, University of Science and Technology of China, 08\/2010 - 05\/2013. \n
+  Advised by Professor [https://bs.ustc.edu.cn/english/Profile-97.html Shuguang Zhang].
+- B.S. Statistics, University of Science and Technology of China, 08\/2006 - 05\/2010. \n
+
+
+== Research Interests
+- Statistical methodology on data integration and distributed statistical learning. \n 
+	Check the R package [https://github.com/Penncil/pda pda] for Privacy-preserving Distributed Algorithms. 
+- Meta-analysis methods. 
+- Dimension reduction and variable selection.
+- Collaborative healthcare data analyses. \n 
+	Opioid use and mental health outcomes, pharmacovigilance (vaccine and drug safety), neurological study.
+
+
+~~~
+
+== Contact
+- Email: chongliang.luo(at)pennmedicine(dot)upenn(dot)edu or luocl3009(at)gmail(dot)com.
+- Address: 634 Blockley Hall, 423 Guardian Drive Philadelphia, PA 19104.
+- My [https://github.com/chongliang-luo GitHub].
+- My [https://scholar.google.com/citations?user=Tx63emcAAAAJ&hl=en&oi=ao Google Scholar].
+
+
+
+
