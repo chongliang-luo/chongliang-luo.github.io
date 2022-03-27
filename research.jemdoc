@@ -4,8 +4,8 @@
 
 \n
 
-=  Statistical methodology for multi-view data integration
-Multi-view data, also called multi-modal, or vertically distributed data sets, are the data that contains distinct but related sets of characteristics on the same set of subjects.  My dissertation focuses on improving the prediction of multi-view data using reduced-rank based models.
+=  Multi-view data analysis
+Multi-view (or multi-modal) data contains multiple sets of features, such as patients' -omics, imaging, behavior questionnaire and clinical data. Integrating multi-view data could improve variable selection, dimension reduction and prediction.  My dissertation focuses on improving the prediction of multi-view data using reduced-rank models.
 - [https://academic.oup.com/biostatistics/article/17/3/468/1743976, Canonical Variate Regression] for multi-view covariates.
 
 It connects the unsupervised canonical correlation analysis(CCA) and generalized reduced-rank regression (RRR), see Figure (a). Also check the R package [https://cran.r-project.org/web/packages/CVR/index.html CVR] on CRAN.
@@ -16,65 +16,63 @@ It connects the unsupervised canonical correlation analysis(CCA) and generalize
 
 - [https://doi.org/10.1016/j.jmva.2018.04.011 Leveraging mixed-type and incomplete outcomes via a generalized reduced rank regression] for multi-view responses. 
 
-The response variables are dependent, but could follow different distributions (i.e. gaussian, binomial, Poisson) and subject to missing values, see Figure (b). Also check the R package [https://cran.r-project.org/web/packages/rrpack/index.html rrpack] on CRAN .
+The response variables are dependent, but could follow different distributions (i.e. gaussian, binomial, Poisson) and subject to missing values, see Figure (b). Also check the R package [https://cran.r-project.org/web/packages/rrpack/index.html rrpack] on CRAN.
 
 
-= Privacy-preserving distributed algorithms (PDAs)
-Data may be collected from subjects that are distributed at multiple sites. These horizontally distributed data sets enable analyses being potentially  conducted with larger sample size and better generalizability. A typical example is the healthcare data that are stored at multiple institutions within a clinical research network. However, due to regulations protecting the privacy of healthcare data, direct sharing ofpatient-level data across institutions may be challenging. Privacy-preserving distributed algorithms (PDAs) that are communication-efficient, i.e. only require one or two iterations of data communication, is thus desirable.
+= Distributed learning 
+Data may be collected from subjects that are distributed at multiple sites. Combining these (horizontally) distributed data sets enable analyses to be potentially conducted with larger sample size and better generalizability. A typical example is the healthcare data (e.g. EHRs or medical claims) that are stored at multiple institutions within a clinical research network. However, due to privacy regulations such as [https://en.wikipedia.org/wiki/Health_Insurance_Portability_and_Accountability_Act HIPAA], direct sharing of individual patient-level data (IPD) across institutions may be challenging. 
+
+I work on developing privacy-protected distributed algorithms ([https://pdamethods.org/ PDA]) that require each site to contribute only aggregated data (AD) in a few rounds. Using PDAs can obtain close (or identical) estimates to the "pooled analysis" that uses IPD from all sites, especially for rare outcomes (e.g. rare diseases). The heterogeneity across sites is also taken into account when developing some PDAs. See an example of the distributed linear mixed model ([https://www.medrxiv.org/content/10.1101/2020.11.16.20230730v2.full DLMM]). This algorithm has been used to integrate 11 collaborative data sources worldwide  (N=120,609) to investigate the associations between demographic and clinical characteristics and length of hospital stay in COVID-19 patients. 
 
 ~~~
-{}{img_left}{pda.png}{}{}{}{}
+{}{img_left}{dlmm.png}{}{1200}{500}{}
 ~~~
 
-- We proposed a One-shot Distributed Algorithm for Cox regression (ODAC), see [https://doi.org/10.1093/jamia/ocaa044 Learning from local to global: An efficient distributed algorithm for modeling time-to-event data], published at /JAMIA/.
-- See also the [https://doi.org/10.1093/jamia/ocz199 ODAL] algorithm for logistic regression, and more methods are implemented in our [https://github.com/Penncil/pda pda] package on github.
-
-In particular, most of the existing distributed algorithms used in medical informatics settings assumed homogeneityacross clinical sites (i.e., i.i.d. assumption), which does not hold in many settings. Accounting for the between-site heterogeneity is both important and challenging when integrating multi-site data.
-
-- Distributed Proportional Likelihood Ratio Model with Application to Data Integration across Clinical Sites. /Under review/.
-- [https://www.medrxiv.org/content/10.1101/2020.11.17.20220681v1 An efficient distributed algorithm with application to COVID-19 data from heterogeneous clinical sites].                      
-- We are working on a [https://www.medrxiv.org/content/10.1101/2020.11.16.20230730v1 Lossless Distributed Linear Mixed Model with Application to Integration of Heterogeneous Healthcare Data]. This method is being used to integrate data from multiple international data sources to study the hospital length of stay of over 100,000 COVID-19 patients.
+Check out the [https://github.com/Penncil/pda pda] package at Github, including the [https://doi.org/10.1093/jamia/ocz199 ODAL] algorithm for fitting logistic regression, and the [https://doi.org/10.1093/jamia/ocaa044 ODAC] algorithm for fitting Cox regression, among others. 
 
 
-= Meta-analysis methods
-- [https://doi.org/10.1101/2020.07.27.20161562 Accounting for small-study effects using a bivariate trim and fill meta-analysis procedure], on /medRxiv/. Also check the R package [https://cran.r-project.org/web/packages/xmeta/index.html xmeta] on CRAN.
-- EMBRACE: an EM-based Bias Reduction Approach through Copas-Model Estimation for Quantifying the evidence of selective publishing in network meta-analysis, /Under review/.
+= Meta-analysis  
+A [https://en.wikipedia.org/wiki/Meta-analysis%:~:text=A%20meta%2Danalysis%20is%20a,have%20some%20degree%20of%20error. meta-analysis] is a systematic review procedure that uses statistical methods (e.g. inverse variance weighted average) to combine the results of multiple scientific studies (e.g. efficacy and/or safety of certain drugs). Novel statistical methods are developed for the problems such as publication bias and complex designs.
 
 
 = Collaborations
-=== Opioid use and mental health outcomes
-- See an overview of the [https://www.cdc.gov/drugoverdose/opioids/prescribed.html opioid overdose epdemic] by the CDC.
-- See below for a Proposed Associations Among Chronic Pain, Mental Health, and Adverse Outcomes Associated With Opioid Prescription from [https://jamanetwork.com/journals/jamapsychiatry/article-abstract/2768366 Battaglia, Quinn & Groenewald, 2020], /JAMA Psychiatry/.
-~~~
-{}{img_left}{quinn.png}{}{800}{600}{}
-~~~
+=== Cancer clinical trials
 
-- We analyzed the [https://cebp.aacrjournals.org/content/29/11/2126 Risk of persistent opioid use following major surgery in matched samples of patients with and without cancer], using the  data from the University of Pennsylvania Health System.
-- We are working on analyzing the association of prescription opioid use with suicide attempts using  statewide medical claims data. 
+=== Opioid use and mental health  
+#- See an overview of the [https://www.cdc.gov/drugoverdose/opioids/prescribed.html opioid overdose epdemic] by the CDC.
+#- See below for a Proposed Associations Among Chronic Pain, Mental Health, and Adverse Outcomes Associated With Opioid Prescription from [https://#jamanetwork.com/journals/jamapsychiatry/article-abstract/2768366 Battaglia, Quinn & Groenewald, 2020], /JAMA Psychiatry/.
+#~~~
+#{}{img_left}{quinn.png}{}{800}{600}{}
+#~~~
+
+#- We analyzed the [https://cebp.aacrjournals.org/content/29/11/2126 Risk of persistent opioid use following major surgery in matched samples of patients #with and without cancer], using the data from the University of Pennsylvania Health System.
+#- We are working on analyzing the association of prescription opioid use with suicide attempts using  statewide medical claims data. 
 
 === Pharmacovigilance: vaccine and drug safety  
-- The association of Guillain-Barre syndrome and other adverse events using data from a passive surveillance system ([https://vaers.hhs.gov/ VAERS]), /Under revision/.
-- [https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2772917 Deep learning and behavioral theory: an improved analytic method to understand HPV vaccination intentions from Twitter discussion], published at /JAMA Network Open/. See below for HPV vaccine-related Twitter Posts: Trend of Theoretical Constructs After Removing Seasonal Effect and Random Noise. HPV, human papillomavirus; HBM, health belief model; TPB, theory of planned behaviors.
+#- The association of Guillain-Barre syndrome and other adverse events using data from a passive surveillance system ([https://vaers.hhs.gov/ VAERS]), /#Under revision/.
+#- [https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2772917 Deep learning and behavioral theory: an improved analytic method to understand HPV #vaccination intentions from Twitter discussion], published at /JAMA Network Open/. See below for HPV vaccine-related Twitter Posts: Trend of Theoretical #Constructs After Removing Seasonal Effect and Random Noise. HPV, human papillomavirus; HBM, health belief model; TPB, theory of planned behaviors.
 
-~~~
-{}{img_left}{hpv_twitter.png}{}{900}{500}{}
-~~~
+#~~~
+#{}{img_left}{hpv_twitter.png}{}{900}{500}{}
+#~~~
 
-- [https://doi.org/10.1038/s41746-019-0102-4 Leveraging deep learning to understand health beliefs about the Human Papillomavirus Vaccine from social media], published at /NPJ digital medicine/.
+#== 
+#- [https://doi.org/10.1038/s41746-019-0102-4 Leveraging deep learning to understand health beliefs about the Human Papillomavirus Vaccine from social #media], published at /NPJ digital medicine/.
 
-=== Neurological studies
-- We used random forests to find Predictors of post-infectious inflammatory response syndrome (PIIRS) in HIV-negative immunocompetent cryptococcal meningitis, to appear at /Journal of Neurology, Neurosurgery, and Psychiatry/. See below for the Decision tree for PIIRS prediction. Conditional inference decision tree is created using hearing impairment, CSF pressure, CSF fungal counts and TC, as selected by the random forests. An oval represents a split on a specific variable, along with the corresponding p-value. All variables are included in the decision tree regardless of the significance of their splits. The ratio in each leaf node is the observed proportion of PIIRS in that group. The splits based on CSF fungal counts and TC are not significant, though still show certain separation in the leaf nodes.
+=== Rare neurological disorders
+#- We used random forests to find Predictors of post-infectious inflammatory response syndrome (PIIRS) in HIV-negative immunocompetent cryptococcal meningitis, to appear at /Journal of Neurology, Neurosurgery, and Psychiatry/. See below for the Decision tree for PIIRS prediction. Conditional inference #decision tree is created using hearing impairment, CSF pressure, CSF fungal counts and TC, as selected by the random forests. An oval represents a split #on a specific variable, along with the corresponding p-value. All variables are included in the decision tree regardless of the significance of their #splits. The ratio in each leaf node is the observed proportion of PIIRS in that group. The splits based on CSF fungal counts and TC are not significant, #though still show certain separation in the leaf nodes.
 
-~~~
-{}{img_left}{PIIRS_fig2s.png}{}{600}{600}{}
-~~~
+#~~~
+#{}{img_left}{PIIRS_fig2s.png}{}{600}{600}{}
+#~~~
  
 
-- [https://doi.org/10.3389/fneur.2019.00464 Elevated plasma homocysteine levels in anti-N-methyl-D-aspartate receptor encephalitis], published at /Frontiers in Neurology/.
+#- [https://doi.org/10.3389/fneur.2019.00464 Elevated plasma homocysteine levels in anti-N-methyl-D-aspartate receptor encephalitis], published at /#Frontiers in Neurology/.
 
 
 === Healthcare quality rating
-Part of my work at the [https://health.uconn.edu/population-health/ Center for Population Health] at UConn Health Center was healthcare quality rating, see [https://healthscorect.com/ HealthscoreCT]. We mined the Connecticut All Payers Claims Database ([https://www.apcdcouncil.org/ APCD]) to rate the healthcare quality of organizations. 
+[https://healthscorect.com/ HealthscoreCT]
+#Part of my work at the [https://health.uconn.edu/population-health/ Center for Population Health] at UConn Health Center was healthcare quality rating, #see [https://healthscorect.com/ HealthscoreCT]. We mined the Connecticut All Payers Claims Database ([https://www.apcdcouncil.org/ APCD]) to rate the #healthcare quality of organizations. 
 
 \n
 \n

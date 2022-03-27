@@ -5,36 +5,46 @@
 
 \n
 
+[https://scholar.google.co.uk/citations?user=Tx63emcAAAAJ&hl=en Google Scholar] \n
 
 
-== Journal Publications (*: co-first author)
-
+== Statistical Methodology (*: co-first author)
+. Tong, J., *Luo, C.*, Islam, M.N., Sheils, N., Buresh, J., Edmondson, M., Merkel, P.A., Lautenbach, E., Duan, R., Chen, Y. (2022).  Distributed learning for data from heterogeneous clinical sites with application to integrating COVID-19 data from 14,215 patients across 230 clinical sites. /npj Digital Medicine/, to appear. [https://doi.org/10.1101/2020.11.17.20220681 medRxiv]
+. *Luo, C.*, et al. (2022).  DLMM as a Lossless One-shot Algorithm for Collaborative Multi-site Distributed Linear Mixed Model. /Nature Communications/, to appear.
+. *Luo, C.*, Duan, R., Naj, A.C., Kranzler, H.R., Bian, J., Chen, Y. (2022). ODACH: A One-shot Distributed Algorithm for Cox model with Heterogeneous Multi-center Data. /Scientific Reports/, to appear.
+. Edmondson, M.J., *Luo, C.*, Duan, R., Maltenfort, M., Chen, Z., Locke, K., Shults, J., Bian, J., Ryan, P.B., Forrest, C.B. and Chen, Y., (2021). An efficient and accurate distributed learning algorithm for modeling multi-site zero-inflated count outcomes. /Scientific Reports/, 11(1), pp.1-17.  doi: 10.1038/s41598-021-99078-2. PMID: 34608222.
+. Chen, A.A., *Luo, C.*, Chen, Y., Shinohara, R.T., Shou, H. and Alzheimer’s Disease Neuroimaging Initiative,  (2022). Privacy-preserving harmonization via distributed ComBat. /NeuroImage/, 248, p.118822. doi: 10.1016/j.neuroimage.2021.118822. PMID: 34958950.
+. Marks-Anglin, A., *Luo, C.*, Piao, J., Gibbons, M., Schmid, C., Ning, J., Chen, Y. (2021). EMBRACE: an EM-based bias reduction approach through copas-model estimation for quantifying the evidence of selective publishing in network meta-analysis. /Biometrics/. doi: 10.1111/biom.13441. PMID: 33559881.  
 . Duan, R.\*, *Luo, C.\**, Schuemie, M.J., Tong, J., Liang, J., Boland, M.R., Bian, J., Xu, H., Berlin, J.A.,  Moore, J.H., Mahoney, K.B. and Chen, Y. (2020) Learning from local to global - an efficient distributed algorithm for modeling time to event data. /Journal of the American Medical Informatics Association/, 27(7):1028–1036. [https://doi.org/10.1093/jamia/ocaa044 JAMIA]
+. *Luo, C.*, Liang, J., Li, G., Wang, F., Dey, D., Chen, K. (2018). Leveraging mixed-type and incomplete outcomes via a generalized reduced rank regression.  /Journal of Multivariate Analysis/, 167:378-394. [https://doi.org/10.1016/j.jmva.2018.04.011 JMVA]
+. *Luo, C.*, Liu, J., Dey, D., Chen, K. (2016). Canonical Variate Regression. /Biostatistics/, 17(3):468-483. [https://doi.org/10.1093/biostatistics/kxw001 Biostatistics], [https://cran.r-project.org/web/packages/CVR/index.html CRAN]
+. (Book chapter) *Luo, C.*, Dey, D. and Chen, K. (2016) Partially supervised sparse factor regression model for multi-class classification. In Lin, J., Wang, B., Hu, X., Chen, K., \& Liu, R. (Eds.).  /Statistical Applications from Clinical Trials and Personalized Medicine to Finance and Business Analytics - Selected Papers from the 2015 ICSA\/Graybill Applied Statistical Symposium/. [https://link.springer.com/chapter/10.1007/978-3-319-42568-9_24 Springer]  
+. *Luo, C.*, Feng, Q., Zhang, S. (2013). Several Topological Indices of Random Binary Tree. /Journal of University of Science and Technology of China/, 43:12.  [https://www.researchgate.net/publication/287544255_Several_topological_indces_of_random_binary_trees ResearchGate]
+
+
+== Application and Collaboration
+. Huang, Y., *Luo, C.*, Jiang, Y., Du, J., Tao, C., Chen, Y., Hao, Y. (2022). A Bayesian Network to Predict the Risk of Post Influenza Vaccination Guillain-Barre Syndrome: Development and Validation Study. /JMIR Public Health Surveill/, 8(3):e25658, URL: https://publichealth.jmir.org/2022/3/e25658/, doi: 10.2196/25658.
 . Falcone, M.\*, *Luo, C.\**, Chen Y., Birtwell D., Cheatle M., Duan R., Gabriel P.E., He L., Ko E.M., Lenz H.J., Mirkovic N., Mowery D.L., Ochroch E.A., Paulson E.C., Schriver E., Schnoll R.A., Bekelman J.E., Lerman C. (2020) Risk of persistent opioid use following major surgery in matched samples of patients with and without cancer. /Cancer Epidemiology, Biomarkers and Prevention/. [https://cebp.aacrjournals.org/content/29/11/2126 CEBP]
+. *Luo, C.*, Jiang, Y., Du, J., Tong, J., Huang, J., Lo Re, V., Ellenberg, S.S., Poland, G.A., Tao, C., Chen, Y. (2021). Prediction of post-vaccination  Guillain-Barr´e syndrome using data from a passive surveillance system.  /Pharmacoepidemiology and Drug Safety/, doi: 10.1002/pds.5196.
 . Du, J., *Luo, C.*, Shegog, R., Bian, J., Chen, Y., Tao, C. (2019) Deep learning and behavioral theory: an improved analytic method to understand HPV vaccination intentions from Twitter discussion. /JAMA Network Open/, 3(11):e2022025. [https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2772917 JAMA Network Open]. 
 . Liu, J.\*, *Luo, C.\**, Li, M., Wang, Y., Xu, X., Yang, Lu., Qin, B., Chen, Y., Jiang, Y., Peng, F. (2020) Predictors of post-infectious inflammatory response syndrome in HIV-negative immunocompetent cryptococcal meningitis. /Journal of Neurology, Neurosurgery, and Psychiatry, to appear/.
 . Du, J., Cunningham, R. M., Xiang, Y., Li, F., Jia, Y., Boom, J. A., Myneni, S., Bian, J., *Luo, C.*, Chen, Y., Tao, C. (2019). Leveraging deep learning to understand health beliefs about the Human Papillomavirus Vaccine from social media. /NPJ digital medicine/, 2(27). [https://doi.org/10.1038/s41746-019-0102-4 NPJ-DM]
 . Liu, L., Liang, J., Liu, Q., *Luo, C.*, Liu, J., Fan, R., Chen Z., Chen Y., Peng F., Jiang, Y. (2019). Elevated plasma homocysteine levels in anti-N-methyl-D-aspartate receptor encephalitis. /Frontiers in Neurology/, 10:464. [https://doi.org/10.3389/fneur.2019.00464 FiN]
-. *Luo, C.*, Liang, J., Li, G., Wang, F., Dey, D., Chen, K. (2018). Leveraging mixed-type and incomplete outcomes via a generalized reduced rank regression.  /Journal of Multivariate Analysis/, 167:378-394. [https://doi.org/10.1016/j.jmva.2018.04.011 JMVA]
-. *Luo, C.*, Liu, J., Dey, D., Chen, K. (2016). Canonical Variate Regression. /Biostatistics/, 17(3):468-483. [https://doi.org/10.1093/biostatistics/kxw001 Biostatistics], [https://cran.r-project.org/web/packages/CVR/index.html CRAN]
-. *Luo, C.*, Feng, Q., Zhang, S. (2013). Several Topological Indices of Random Binary Tree. /Journal of University of Science and Technology of China/, 43:12.  [https://www.researchgate.net/publication/287544255_Several_topological_indces_of_random_binary_trees ResearchGate]
-. (Book chapter) *Luo, C.*, Dey, D. and Chen, K. (2016) Partially supervised sparse factor regression model for multi-class classification. In Lin, J., Wang, B., Hu, X., Chen, K., \& Liu, R. (Eds.).  /Statistical Applications from Clinical Trials and Personalized Medicine to Finance and Business Analytics - Selected Papers from the 2015 ICSA\/Graybill Applied Statistical Symposium/. [https://link.springer.com/chapter/10.1007/978-3-319-42568-9_24 Springer]  
+. Duan, R., Chen, Z., Tong, J., *Luo, C.*, Lyu, T., Tao, C., Maraganore, D., Bian, J., Chen, Y. (2021) Leverage Real-world Longitudinal Data in Large Clinical Research Networks for Alzheimer’s Disease and Related Dementia (ADRD). /AMIA Annu Symp Proc/, 2020:393-401. PMID: 33936412; PMCID: PMC8075520. [https://pubmed.ncbi.nlm.nih.gov/33936412/ PubMed], [https://doi.org/10.1101/2020.08.03.20167619 medRxiv]
 
 
 
-== Preprints and Submissions (*: co-first author)
-
+== Preprints and Submissions 
+. *Luo, C.*, Islam, M.N., Sheils, N.E., Buresh, J., Schuemie, M.J., Doshi, J.A., Werner, R.M., Asch, D.A., Chen, Y. (2022). dPQL: a lossless distributed algorithm for generalized linear mixed model with application to privacy-preserving hospital profiling. /Under revision/
+. Mackenzie Edmondson, *Chongliang Luo*, Nazmul Islam, David Asch, Jiang Bian, Yong Chen.  (2021). Distributed Counterfactual Modeling Approach for Investigating Hospital-Associated Racial Disparities in COVID-19 Mortality. /medRxiv/ 2021.09.14.21263596; doi: https://doi.org/10.1101/2021.09.14.21263596
+. *Chongliang Luo*, Jingcheng Du, Anne M. Butler, Adam Cuker, Ebbing Lautenbach, David A. Asch, Gregory A. Poland, Cui Tao, Yong Chen. (2022). COVID-19 Vaccine Safety: Comparability of Clinical Trial Data (RCTs) with the Vaccine Adverse Event Reporting System (VAERS) Database. /submitted/  
+. Lee, K., Junkins, E.J., *Luo, C.*, Fatima, U.A., Cox, M.L., Clancy, K. (2021). Investigating trends in those who experience menstrual bleeding changes after SARS-CoV-2 vaccination. /medRxiv/ 2021.10.11.21264863; doi: https://doi.org/10.1101/2021.10.11.21264863
 . *Luo, C.*, Duan, R., Edmondson, M., Shi, J., Maltenfort, M., Morris, J., Forrest, C., Hubbard, R., Chen, Y. (2020) Distributed Proportional Likelihood Ratio Model with Application to Data Integration across Clinical Sites. /Under review/.
+. Milan Zhang, Jiayi Tong, Weifeng Ma, *Chongliang Luo*, Huiqin Liu, Yushu Jiang, Lingzhi Qin, Xiaojuan Wang, Lipin Yuan, Zhang Jiewen, Fuhua Peng, Yong Chen, Wei Li and Ying Jiang (2022). Predictors of Lung Adenocarcinoma with Leptomeningeal Metastases: A 2022 Targeted-therapy-assisted molGPA Model. /submitted/, [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4043955 SSRN]
 . *Luo, C.*,  Marks-Anglin, A., Duan, R.,  Lin, L., Hong, C., Chu, H., Chen, Y. (2020) Accounting for small-study effects using a bivariate trim and fill meta-analysis procedure. [https://doi.org/10.1101/2020.07.27.20161562 medRxiv]
-. *Luo, C.*, Islam, M.N., Sheils, N., Reps, J., Buresh, J., Duan, R., Tong, J., Edmondson, M., Schumie, M.J., Chen, Y. (2020) Lossless Distributed Linear Mixed Model with Application to Integration of Heterogeneous Healthcare Data. /medRxiv/. 
-. *Luo, C.*, Jiang, Y., Du, J., Tong, J., Huang, J., Lo Re, V., Ellenberg, S.S., Poland, G.A., Tao, C., Chen, Y. (2020) Prediction of post-vaccination Guillain-Barré syndrome using data from a passive surveillance system. /Pharmacoepidemiology and Drug Safety, under revision/.
-. Edmondson, M., *Luo, C.*, Duan, R., Maltenfort, M., Forrest, C., Chen, Y. (2020) ODAH: A one-shot distributed algorithm for modeling zero-inflated counts using EHR data in multiple sites. /Under review/.
 . Wang, W., *Luo, C.*, Aseltine, R., Wang, F., Yan, J., Chen, K. (2020) Suicide Risk Modeling with Uncertain Diagnostic Records. /Under review/.
-. Marks-Anglin, A., *Luo, C.*, Piao, J., Gibbons, M., Schmid, C., Ning, J., Chen, Y. (2020) EMBRACE: an EM-based Bias Reduction Approach through Copas-Model Estimation for Quantifying the evidence of selective publishing in network meta-analysis. /Under review/.
-. Tong, J., *Luo, C.*,  Islam, M.N., Sheils, N., Buresh, J., Edmondson, M., Merkel, P.A.,  Lautenbach, E., Duan, R., Chen, Y. (2020) An efficient distributed algorithm with application to COVID-19 data from heterogeneous clinical sites. [https://doi.org/10.1101/2020.11.17.20220681 medRxiv]
 . Du, J., *Luo, C.*, Wei, Q., Chen, Y., Tao, C. (2019) Exploring difference in public perceptions on HPV vaccine between gender groups from twitter using deep learning. [https://arxiv.org/abs/1907.03167 arXiv].
-. Duan, R., Chen, Z., Tong, J., *Luo, C.*, Lyu, T., Tao, C., Maraganore, D., Bian, J., Chen, Y. (2020) Leverage Real-world Longitudinal Data in Large Clinical Research Networks for Alzheimer’s Disease and Related Dementia (ADRD). [https://doi.org/10.1101/2020.08.03.20167619 medRxiv]
-. (In preparation) *Luo, C.*, Doshi, R., Rickles, N., Aseltine, R., Chen, K. (2020) The association of prescription opioid use with suicide attempts: an analysis of statewide medical claims data. 
+. *Luo, C.*, Doshi, R., Rickles, N., Aseltine, R., Chen, K. (2020) The association of prescription opioid use with suicide attempts: an analysis of statewide medical claims data. /submitted/. 
 
 
 
